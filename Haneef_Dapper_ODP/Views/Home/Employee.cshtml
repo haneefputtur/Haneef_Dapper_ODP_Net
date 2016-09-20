@@ -1,0 +1,52 @@
+﻿@model List<Haneef_Dapper_ODP.Models.Employee>
+@{
+    ViewBag.Title = "Employee";
+}
+
+<h2>Employee List</h2>
+
+<table class="table table-bordered">
+    <tr class="table-striped">
+
+        <td>
+
+           Employee ID
+        </td>
+        <td>
+      Mobile
+
+        </td>
+        <td>
+         Department
+        </td>
+        <td>
+          Name
+        </td>
+    </tr>
+
+    @if (Model != null)
+        {
+        for (var i = 0; i < Model.Count(); i++)
+            {
+
+            <tr class="table-striped">
+
+                <td>
+                   
+                    @Html.DisplayFor(model => model[i].EMPLOYEE_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model[i].EMPLOYEE_MOBILE)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model[i].EMPLOYEE_DEPARTMENT)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model[i].EMPLOYEE_NAME)
+                </td>
+            </tr>
+            }
+        }
+
+</table>
