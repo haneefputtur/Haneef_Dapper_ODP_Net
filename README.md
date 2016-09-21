@@ -2,7 +2,7 @@
 
 Installation of Oracle Dadatabase Express Edition and Integration with ASP.Net MVC C# Using Dapper and ODP.net
 
-# Sample Packagge Creation and Using Procedures.
+# Sample Package Creation and Using Procedures.
 
 
 Link : http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html
