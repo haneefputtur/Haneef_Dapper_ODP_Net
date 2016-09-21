@@ -1,4 +1,5 @@
-# Haneef_Dapper_ODP_Net
+# Haneef_Dapper_ODP_Net  -- www.haneefputtur.com
+
 Installation of Oracle Dadatabase Express Edition and Integration with ASP.Net MVC C# Using Dapper and ODP.net
 
 # Sample Packagge Creation and Using Procedures.
@@ -95,3 +96,11 @@ END;
 /
 
 ##################
+
+
+Credits & tools:
+Dapper
+Oracle
+Microsoft
+haneefputtur
+
