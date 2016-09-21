@@ -71,7 +71,7 @@ COMMIT;
 
 ## Create Package
 
-CDROP PACKAGE HPUTTUR.EMP;
+CREATE OR DROP PACKAGE HPUTTUR.EMP;
 
 /* Formatted on 21-Sep-16 12:18:31 AM (QP5 v5.185.11230.41888) */
 CREATE OR REPLACE PACKAGE HPUTTUR.EMP
@@ -99,8 +99,12 @@ END;
 
 
 Credits & tools:
+
 Dapper
+
 Oracle
+
 Microsoft
+
 haneefputtur
 
